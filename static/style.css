@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+   padding: 0;  
+   font-family: 'New Tegomin', serif;
+}
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0px 14px;
+}
+#logo img{
+  height: 42px;
+    opacity: 34;
+    filter: invert(1);
+    padding: 5px;
+}
+#navbar{
+  background-color: rgb(160, 75, 75);
+  padding: 13px 14px;
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 4px;
+  
+
+
+}
+#navbar li{
+  list-style: none;
+  
+}
+#navbar li a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 13px 30px;
+  }
+  #navbar li a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 30px;
+  }
+  #introsection div.small{
+   font-size: 27px;
+   padding: 5px;
+  }
+#introsection{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 35px;
+  /* background: center/ contain no-repeat url("/static/bg.jpg"); */
+  animation: pulse 6.5s infinite;
+  /* background-size: cover; */
+  height: 300px;
+  /* background-color: red; */
+}
+@keyframes pulse {
+  0% {
+    background: center/ contain no-repeat url("/static/bg.jpg");
+    background-size: cover;
+  }
+  100% {
+    background: center/ contain no-repeat url("/static/bg2.jpg");
+    background-size: cover;
+  }
+}
+#missionsection{
+  text-align: center;
+  height: 300px;
+  background-color: rgba(245, 240, 238, 0.863);
+}
+.card{
+  display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: -1px 68px;
+    padding: 49px;
+    width: 25%;
+    height: 236px;
+}
+.card h3{
+  text-align: center;
+  margin: -46px;
+  font-size: 21px;
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img{
+  height: 125px;
+  padding: 27px 20px;
+  margin: 42px -66px;
+}
+.card-img img{
+  height: inherit;
+}
+.card-content{
+  padding: 49px;
+  margin: 6px;
+}
+.card-content p{
+  font-weight: bold;
+  font-size:16px ;
+}
+#sponsorsection h2{
+  text-align: center;
+  padding-top: 12px;
+}
+#sponsorsection{
+height: 225px;
+background-color: rgba(212, 85, 34, 0.863);
+}
+#sponsors{
+  height: 118px;
+  max-width: 1000px;
+  margin: 18px 346px
+}
+.spImage{
+  height: 83%;
+    margin: 28px;
+    filter: drop-shadow(8px 6px 6px black);
+    padding: 7px 12px
+
+}
+#footer{
+  display: flex;
+height: 33px;
+background-color:black;
+color: aliceblue;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+}

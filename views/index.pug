@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    title Jerry Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul 
+          div#logo
+            img(src="/static/img/logo2.png")
+            | JDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") class-Info]
+          li #[a(href="/") Contact us]
+    
+    section#introsection
+        div Welcome To Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionsection 
+        h2 Our Mission 
+        div.card
+          h3 Dance Perfection
+          div.card-box
+              div.card-img
+                 img(src="/static/img/logo3.png")
+              div.card-content  
+                 p This is the best dance Academy of the Universe  
+        div.card
+          h3 Dance the way you Like 
+          div.card-box
+            div.card-img
+              img(src="/static/img/logo1.png")
+            div.card-content  
+                 p This is the best dance Academy of the Universe  
+        div.card       
+          h3 Live Classes 
+          div.card-box
+            div.card-img
+              img(src="/static/img/logo1.png")
+            div.card-content  
+                 p This is the best dance Academy of the Universe
+
+    section#sponsorsection 
+        h2 Our Sponsor 
+        div#sponsors 
+            img(src="/static/img/s1.png", alt="sponsors Image",class="spImage")
+            img(src="/static/img/s2.png", alt="sponsors Image",class="spImage")
+            img(src="/static/img/s3.png", alt="sponsors Image",class="spImage")
+            img(src="/static/img/s4.png", alt="sponsors Image",class="spImage")
+
+
+    footer#footer 
+      | copyright © 2021 jerrydanceacademy.com | All rights Reserved
+
+                       
+    
+
+
+
+    script
+      include ../static/index.js
